@@ -56,5 +56,6 @@ public class Factorial {
         }
 
         return n * factorialRec(n - 1);
+    
     }
 }
