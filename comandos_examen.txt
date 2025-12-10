@@ -1,0 +1,89 @@
+    1  history -w
+    2  history
+    3  clear
+    4  ls -l
+    5  ls
+    6  clear
+    7  cd eclipse-workspace/PuertaMerinoSamuel_Factorial
+    8  ls
+    9  git init
+   10  .gitignore
+   11  git .gitignore
+   12  echo "/bin/" > .gitignore
+   13  git remote add origin ttps://github.com/spuemer/DAM2526_PMS_Factorial.git
+   14  git remote -v
+   15  git add .
+   16  git add .
+   17  git commit -m "A: versión inicial que pide número y realiza comprobación"
+   18  git branch -M main
+   19  git push -u origin main
+   20  git push -u origin main
+   21  git push
+   22  git push --set-upstream origin main
+   23  git branch -M Factorial
+   24  git push -u origin Factorial
+   25  git push --set-upstream origin main
+   26  git branch -M main
+   27  git remote add origin git@github.com:spuemer/DAM2526_PMS_Factorial.git
+   28  git push -u origin main
+   29  git push -u origin main
+   30  git remote -v
+   31  git remote set-url https://github.com/spuemer/DAM2526_PMS_Factorial.git
+   32  git remote set-url origin https://github.com/spuemer/DAM2526_PMS_Factorial.git
+   33  git remote -v
+   34  git push -u origin main
+   35  clear
+   36  git add src
+   37  git commit -b "B: funcion pedirNumero"
+   38  git commit -m "B: funcion pedirNumero"
+   39  git push
+   40  git add src
+   41  git commit -m "C: mensaje"
+   42  git push
+   43  git branch factorial_recursivo
+   44  git switch -c factorial_recursivo
+   45  git switch factorial_recursivo
+   46  git add src
+   47  git commit -m "f1: solo en local"
+   48  git add src
+   49  git commit -m "f2: resultado con recursividad"
+   50  git add src
+   51  git commit -m "f3: función recursiva usando JavaDoc"
+   52  git log --oneline --graph --all --decorate
+   53  git switch main
+   54  git add src
+   55  git commit -m "D: Mejorar la función pedirNumero"
+   56  git push
+   57  git pull
+   58  git push
+   59  git add src
+   60  git commit -m "E: funcion iterativa"
+   61  git push
+   62  git add src
+   63  git commit -m "F: Resultado"
+   64  git push
+   65  git log --oneline --graph --all --decorate
+   66  git switch factorial_recursivo 
+   67  git rebase main
+   68  git rebase --continue
+   69  git add src/pruebaControlVersiones/Factorial.java 
+   70  git rebase --continue
+   71  git rebase --continue
+   72  git add src/pruebaControlVersiones/Factorial.java 
+   73  git rebase --continue
+   74  git log --oneline --graph --all --decorate
+   75  git push -u origin factorial_recursivo
+   76  git add src
+   77  git commit -m "f4: Proceso completado"
+   78  git pull
+   79  git push
+   80  git switch main 
+   81  git merge factorial_recursivo 
+   82  git push
+   83  git pull
+   84  git push
+   85  git revert HEAD
+   86  git log --oneline
+   87  git revert 5fc7f5a
+   88  git push
+   89  history > comandos_examen.txt
