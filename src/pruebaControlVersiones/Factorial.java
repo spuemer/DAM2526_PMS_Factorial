@@ -40,6 +40,7 @@ public class Factorial {
         return num;
     }
 
+<<<<<<< HEAD
     private static long factorialBucle(int n) {
         long resultado = 1;
 
@@ -50,6 +51,17 @@ public class Factorial {
         return resultado;
     }
 
+=======
+    private static long factorialRec(int n) {
+        if (n == 0 || n == 1) {
+            return 1;
+        }
+
+        return n * factorialRec(n - 1);
+    }
+
+     
+>>>>>>> c696264 (f3: función recursiva usando JavaDoc)
     private static long factorialRec(int n) {
         if (n == 0 || n == 1) {
             return 1;
