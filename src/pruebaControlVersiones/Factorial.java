@@ -16,7 +16,7 @@ public class Factorial {
             System.out.println("Has introducido el número: " + num);
             System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialRec(num));
         }
-        	
+
         sc.close();
     }
 
@@ -31,7 +31,7 @@ public class Factorial {
                 valido = true;
             } else {
                 System.out.println("Entrada no válida. Introduce un entero.");
-                sc.next();
+                sc.next(); // limpia el valor no entero
                 valido = false;
                 num = -1;
             }
@@ -39,6 +39,22 @@ public class Factorial {
 
         return num;
     }
+
     private static long factorialBucle(int n) {
-    	System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialBucle(num));
+        long resultado = 1;
+
+        for (int i = 2; i <= n; i++) {
+            resultado *= i;
+        }
+
+        return resultado;
+    }
+
+    private static long factorialRec(int n) {
+        if (n == 0 || n == 1) {
+            return 1;
+        }
+
+        return n * factorialRec(n - 1);
+    }
 }
