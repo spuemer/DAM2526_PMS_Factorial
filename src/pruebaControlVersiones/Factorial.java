@@ -14,8 +14,9 @@ public class Factorial {
             System.out.println("ERROR: el número debe ser mayor o igual que 0.");
         } else {
             System.out.println("Has introducido el número: " + num);
+            System.out.println("RESULTADO - En versiones posteriores se calculará el factorial del número " + num);
         }
-
+        	
         sc.close();
     }
 
